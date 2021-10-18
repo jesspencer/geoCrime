@@ -1,5 +1,5 @@
 # GEO CRIME
-This Python library contains:
+Summary:
 - Python code that pulls GeoJSON data from an API and converts it to Shapefile format.
 - Learning tool used for geospatial data formats as well as a way to generate geospatial data for testing was [geojson](https://geojson.io/)  
 - Open Data DC – has an API where GeoJSON data was obtained. [DCGIS](https://opendata.dc.gov/datasets/DCGIS::crime-incidents-in-2011/api)
