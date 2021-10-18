@@ -4,11 +4,11 @@ Summary:
 - Learning tool used for geospatial data formats as well as the site used to generate data for testing [geojson](https://geojson.io/)  
 - Open Data DC – has an API where GeoJSON data was obtained. [DCGIS](https://opendata.dc.gov/datasets/DCGIS::crime-incidents-in-2011/api)
 
-Note API Data Requested: 
+Note About API Data Requested: 
 - The Open Data DC site gives the clipboard url for api data from 2011, which is associated with 35 in the url given:: 
- [https://maps2.dcgis.dc.gov/dcgis/rest/services/FEEDS/MPD/MapServer/35/query?where=1%3D1&outFields=*&outSR=4326&f=json](https://maps2.dcgis.dc.gov/dcgis/rest/services/FEEDS/MPD/MapServer/35/query?where=1%3D1&outFields=*&outSR=4326&f=json) 
+ `https://maps2.dcgis.dc.gov/dcgis/rest/services/FEEDS/MPD/MapServer/35/query?where=1%3D1&outFields=*&outSR=4326&f=json` 
 - The first part directs to the request to the part of the site that responds to API calls::
-[https://maps2.dcgis.dc.gov/dcgis/rest/services/FEEDS/MPD/MapServer/](https://maps2.dcgis.dc.gov/dcgis/rest/services/FEEDS/MPD/MapServer/) 
+`https://maps2.dcgis.dc.gov/dcgis/rest/services/FEEDS/MPD/MapServer/` 
 - This project looks at crime incidents reported in the last 30 days, which comes from page 8 for site id instead of page id 35.
 
 ## REQUIREMENTS
