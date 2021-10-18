@@ -25,8 +25,8 @@ Note API Data Requested:
 
 ## RESULTS
 - To confirm results of .shp file created one could download QGIS [https://www.qgis.org/en/site/forusers/download.html#](https://www.qgis.org/en/site/forusers/download.html#) 
-.. confirmed results from the .shp file with QGIS::
+- Confirmed results picture from the .shp file with QGIS::
 ![data_visual_picture](https://github.com/jesspencer/geoCrime/blob/master/qgis_pic.png?raw=true)
 - Using the learning tool geojason one can use the .csv file created within the project to confirm results.
-.. confirmed results with geojason site::
+- Confirmed results picture with geojason.io site::
 ![data_visual_picture](https://github.com/jesspencer/geoCrime/blob/master/geojason_io_pic.png?raw=true)
