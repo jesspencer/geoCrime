@@ -3,18 +3,21 @@ Summary:
 - Python code that pulls GeoJSON data from an API and converts it to Shapefile format.
 - Learning tool used for geospatial data formats as well as a way to generate geospatial data for testing was [geojson](https://geojson.io/)  
 - Open Data DC – has an API where GeoJSON data was obtained. [DCGIS](https://opendata.dc.gov/datasets/DCGIS::crime-incidents-in-2011/api)
-. The site gives the clipboard url for api data from 2011, which is associated with 35 in the url given:
-. url given::
-[https://maps2.dcgis.dc.gov/dcgis/rest/services/FEEDS/MPD/MapServer/35/query?where=1%3D1&outFields=*&outSR=4326&f=json](https://maps2.dcgis.dc.gov/dcgis/rest/services/FEEDS/MPD/MapServer/35/query?where=1%3D1&outFields=*&outSR=4326&f=json) 
+- The site gives the clipboard url for api data from 2011, which is associated with 35 in the url given::
+.. code:: 
 
-- The first part directs to the request to the part of the site that responds to API calls:
-. first part::
+ [https://maps2.dcgis.dc.gov/dcgis/rest/services/FEEDS/MPD/MapServer/35/query?where=1%3D1&outFields=*&outSR=4326&f=json](https://maps2.dcgis.dc.gov/dcgis/rest/services/FEEDS/MPD/MapServer/35/query?where=1%3D1&outFields=*&outSR=4326&f=json) 
+
+- The first part directs to the request to the part of the site that responds to API calls.
+.. code::
+
  [https://maps2.dcgis.dc.gov/dcgis/rest/services/FEEDS/MPD/MapServer/](https://maps2.dcgis.dc.gov/dcgis/rest/services/FEEDS/MPD/MapServer/) 
+
 ## REQUIREMENTS
 - python 3.7
-- pandas
-- requests
-- fiona
+- pip install pandas
+- pip install requests
+- pip install fiona
 
 ## RUNNING DOCUMENTATION LOCALLY:
 1. Create a VM; here are the steps [Creating_A_VM](https://github.com/jesspencer/Good-Grub/blob/master/Creating_A_VM.md)
