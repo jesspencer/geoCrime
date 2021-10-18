@@ -24,7 +24,9 @@ Note API Data Requested:
 4. Start the code to produce .shp file (other files are produced by the code as well but the .shp is resulting file needed)
 
 ## RESULTS
-- To confirm results of .shp file created one could download QGIS [https://www.qgis.org/en/site/forusers/download.html#](https://www.qgis.org/en/site/forusers/download.html#) to confirm results::
+- To confirm results of .shp file created one could download QGIS [https://www.qgis.org/en/site/forusers/download.html#](https://www.qgis.org/en/site/forusers/download.html#) 
+.. confirmed results from the .shp file with QGIS::
 ![data_visual_picture](https://github.com/jesspencer/geoCrime/blob/master/qgis_pic.png?raw=true)
-- Using the learning tool geojason one can use the .csv file created within the project to confirm results::
+- Using the learning tool geojason one can use the .csv file created within the project to confirm results.
+.. confirmed results with geojason site::
 ![data_visual_picture](https://github.com/jesspencer/geoCrime/blob/master/geojason_io_pic.png?raw=true)
