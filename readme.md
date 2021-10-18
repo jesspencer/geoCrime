@@ -21,7 +21,7 @@ Note About API Data Requested:
 1. Create a VM; here are the steps [Creating_A_VM](https://github.com/jesspencer/Good-Grub/blob/master/Creating_A_VM.md)
 2. Run the virtual environment
 3. Clone the project https://github.com/jesspencer/geoCrime
-4. Start the code to produce .shp file (other files are produced by the code as well but the .shp is resulting file needed)
+4. Start the code by running `geoCrime_t1.py` to produce .shp file (other files are produced by the code as well but the .shp is resulting file needed)
 
 ## RESULTS
 - To confirm results of .shp file created one could download QGIS [https://www.qgis.org/en/site/forusers/download.html#](https://www.qgis.org/en/site/forusers/download.html#) 
