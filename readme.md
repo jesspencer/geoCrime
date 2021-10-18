@@ -3,13 +3,11 @@ Summary:
 - Python code that pulls GeoJSON data from an API and converts it to Shapefile format.
 - Learning tool used for geospatial data formats as well as a way to generate geospatial data for testing was [geojson](https://geojson.io/)  
 - Open Data DC – has an API where GeoJSON data was obtained. [DCGIS](https://opendata.dc.gov/datasets/DCGIS::crime-incidents-in-2011/api)
-- The site gives the clipboard url for api data from 2011, which is associated with 35 in the url given::
-.. code:: 
+- The site gives the clipboard url for api data from 2011, which is associated with 35 in the url given:: 
 
  [https://maps2.dcgis.dc.gov/dcgis/rest/services/FEEDS/MPD/MapServer/35/query?where=1%3D1&outFields=*&outSR=4326&f=json](https://maps2.dcgis.dc.gov/dcgis/rest/services/FEEDS/MPD/MapServer/35/query?where=1%3D1&outFields=*&outSR=4326&f=json) 
 
-- The first part directs to the request to the part of the site that responds to API calls.
-.. code::
+- The first part directs to the request to the part of the site that responds to API calls::
 
  [https://maps2.dcgis.dc.gov/dcgis/rest/services/FEEDS/MPD/MapServer/](https://maps2.dcgis.dc.gov/dcgis/rest/services/FEEDS/MPD/MapServer/) 
 
